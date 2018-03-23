@@ -1,0 +1,123 @@
+
+
+
+body {
+	background-color: black;
+	max-width: 100%;
+	font-family: arial, sans-serif;
+}
+
+html {
+	min-width: 100%;
+}
+
+.container {
+	min-width: 100%;
+}
+
+.slider_information {
+	width: 100%;
+	min-height:140px;
+	text-align: center;
+	background-color: grey;
+	color: white;
+	margin-bottom: 5px; 
+	border: 2px solid #dcdcdc;
+}
+
+.slider_information > h1 {
+	font-size: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+		left:-30px;
+		top: 50px;
+		position: absolute;
+	    background-color: #0c86aa;
+    	color: #fff;
+    	z-index: 2000;
+    	border-radius: 25px;
+    	padding: 10px;
+}
+
+.previous:hover {
+	    background-color: #3dcdf7;
+	    cursor: pointer;
+}
+
+
+.next {
+	right: -30px;
+	top: 50px;
+	position: absolute;
+    background-color: #0c86aa;
+    color: #fff;
+    z-index: 2000;
+   	border-radius: 25px;
+   	padding: 10px;
+}
+
+.next:hover {
+	    background-color: #3dcdf7;
+	    cursor: pointer;
+}
+
+.slider_container {
+	height: 600px;
+	position: relative;
+	margin: auto;
+	width: 100%;
+}
+
+
+
+.slider_outer {
+	height: 600px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slider_inner {
+	font-size:0;
+    position: relative;
+    left:0px;
+    height: 800px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px)
+{
+
+
+
+.slider_information {
+	font-size: 10px;
+
+}
+
+
+.previous {
+
+	font-size: 10px;
+}
+
+.next {
+
+	font-size: 10px;
+
+}
+
+
+}
